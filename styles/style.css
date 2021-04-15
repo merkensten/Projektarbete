@@ -121,6 +121,18 @@ img {
   color: var(--white);
 }
 
+.content-section-container {
+  margin-bottom: 100px;
+}
+.content-section {
+  display: flex;
+}
+
+.content {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
 /* Footer */
 
 .footer-container {
