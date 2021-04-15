@@ -56,7 +56,6 @@ img {
 
 li {
   list-style: none;
-  margin-left: 20px;
 }
 
 a {
@@ -116,7 +115,7 @@ img {
 }
 
 .footer {
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 
 .footer__logo {
@@ -135,10 +134,23 @@ img {
   font-size: 2rem;
 }
 
-/* Table */
+/* Katalog */
+
+/* Katalog Hero */
+
+.hero-katalog-container {
+  padding: 140px 0 70px;
+  background-color: var(--prestige-blue);
+}
+
+.hero-katalog h1 {
+  color: var(--city-lights);
+}
+
+/* Katalog Table */
 
 table {
-  margin: 100px auto;
+  margin: 50px auto;
   border-collapse: collapse;
   width: 90%;
   border: 1x solid #bdc3c7;
