@@ -102,7 +102,7 @@ img {
 }
 
 .hero-container {
-  margin: 200px 0 100px;
+  margin: 120px 0 0px;
 }
 
 .hero {
@@ -112,9 +112,14 @@ img {
 .btn {
   border: none;
   outline: none;
-  padding: 10px 20px;
+  padding: 12px 30px;
   border-radius: 50px;
   background-color: var(--saturated-sky);
+  margin-top: 10px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
 }
 
 .btn a {
@@ -124,13 +129,17 @@ img {
 .content-section-container {
   margin-bottom: 100px;
 }
-.content-section {
-  display: flex;
+
+.img-div {
+  margin-top: 20px;
+}
+
+.img-mobile-user {
+  display: none;
 }
 
 .content {
   margin-top: 100px;
-  margin-left: 30px;
 }
 
 /* Footer */
@@ -220,10 +229,22 @@ th, td {
         justify-content: space-between;
     }
 
+    .content-section {
+      display: flex;
+    }
+
+    .content {
+      margin-left: 30px;
+    }
+
+    .img-mobile-user {
+      display: block;
+    }
+
     /* Footer */
 
     .footer {
-      padding: 60px 0;
+      padding: 60px 20px;
       min-height: 250px;
       display: flex;
       justify-content: space-between;
@@ -237,10 +258,19 @@ th, td {
 
 /* Media Queries desktop */
 @media (min-width: 992px) {
+
   .content-container {
     padding: 0 20px;
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  .content {
+    align-self: center;
+  }
+
+  .hero-container {
+    margin: 150px 0 0px;
   }
 
   table {
