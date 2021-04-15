@@ -110,19 +110,21 @@ img {
 }
 
 .btn {
+  display: inline-block;
   border: none;
   outline: none;
   padding: 12px 30px;
   border-radius: 50px;
   background-color: var(--saturated-sky);
   margin-top: 10px;
+  color: var(--white);
 }
 
 .btn:hover {
   transform: scale(1.1);
 }
 
-.btn a {
+.btn:active {
   color: var(--white);
 }
 
