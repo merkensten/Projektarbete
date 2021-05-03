@@ -29,10 +29,6 @@ body {
   color: var(--prestige-blue);
 }
 
-.site-container {
-  min-height: 100vh;
-}
-
 h1 {
   font-size: 4rem;
   font-weight: 600;
@@ -94,7 +90,7 @@ img {
   justify-content: space-between;
   align-items: center;
   min-height: 80px;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .header__logo {
